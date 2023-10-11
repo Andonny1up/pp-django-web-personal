@@ -2,8 +2,16 @@
 
 {% block title %}Juan Pérez{% endblock title %}
 
-{% block h1-title %}Juan Pérez{% endblock h1-title %}
-{% block span-title %}Ingeniero Industrial{% endblock span-title %}
+{% block background %}{% load static %}{% static "core/img/home-bg.jpg" %}{% endblock background %}
+{% block headers %}
+    <h1>
+        Juan Pérez
+    </h1>
+    <span class="subheading">
+        Ingeniero Industrial
+    </span>
+{% endblock headers %}
+
 {% block content %}
 
 {% endblock content %}
